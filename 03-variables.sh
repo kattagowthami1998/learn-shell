@@ -8,7 +8,7 @@ DATE=$(date +%F)
 echo today DATE is ${DATE}
 
 ARTH =$((2-3*4/2))
-echo ${ARTH}
+echo ARTH = ${ARTH}
 
 # Special Variables for Inputs
 echo Script Name - $0
