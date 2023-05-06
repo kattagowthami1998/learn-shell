@@ -10,7 +10,7 @@ echo today DATE is ${DATE}
 ARTH=$((2-3*4/2))
 echo ARTH=${ARTH}
 
-# Special Variables for Inputs
+# Special Variables for dynamic Inputs(arguments) that are given while executing bash command
 echo Script Name - $0
 echo First Argument - $1
 echo Second Argument - $2
