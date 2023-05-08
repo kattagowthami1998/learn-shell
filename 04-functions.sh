@@ -13,7 +13,7 @@ func_name
 
 func_name1() {
   a=123
-  echo First Argument = $1
+         echo First Argument = $1
          echo Second Argument = $2
          echo All Arguments = $*
          echo No Of Arguments = $#
@@ -29,5 +29,6 @@ func_name2() {
   # 1 is a exit status and it ranges from 0-255
 }
 
+# -$ ? to chk whethher the command is success or not .
 func_name2
-echo exit ststus of function -$?
+echo exit status of function -$?
